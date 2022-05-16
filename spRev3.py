@@ -72,9 +72,6 @@ def main():
 
     wb.save('c:/Python/test/sp.xlsx')
 
-    sql = 'SELECT * FROM JVN'
-    cur.execute(sql)
-
     conn.commit()       # 2022.05.16 UPDATE
     conn.close()        # 2022.05.16 UPDATE
 
